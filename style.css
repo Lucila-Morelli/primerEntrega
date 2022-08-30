@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: #064052;
+    height: auto;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+  }
+  
+
+
+.navbar-brand {
+  width: auto;
+  height: 70px;
+  border: 2px solid rgb(255, 254, 254);
+  border-radius: 70%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+ color: rgb(17, 13, 11);
+ background-color: white;
+ font-weight: bolder;
+
+}
+
+h1{
+    
+    color: rgb(3, 3, 29);
+    font-size: 20px;
+}
+
+h2{
+   
+    color: rgb(8, 8, 59);
+    font-size: 20px;
+}
+
+.flexearProductos{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.productos{
+    width: 23%;
+}
+
+.footer{
+    text-align: center;
+    background-color: #064052;
+
+    color: antiquewhite;
+    font-weight: 25px;
+}
+
+.container{
+    color: rgb(32, 5, 56);
+    font-weight: 15px;
+}
